@@ -22,13 +22,45 @@ body {
   flex: 1;
 }
 
-.nav-items{
+.nav-items {
   flex: 1;
   display: flex;
   justify-content: space-around;
   font-size: 18px;
 }
 
-.main-container{
-  padding: 0% 5%;
+.main-container {
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.intro-text {
+  max-width: 620px;
+}
+
+.header {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.63px;
+}
+
+.text {
+  font-weight: 400;
+  line-height: 16.94px;
+}
+
+.section-header {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FF4E00;
+}
+
+.sections {
+  max-width: 519px;
 }
