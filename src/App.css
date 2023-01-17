@@ -120,3 +120,30 @@ button{
 .view img{
   max-width: 50px;
 }
+
+.manufacturers{
+  padding: 20px 0px;
+  background: #002142;
+  color: #FFFFFF;
+}
+
+.manufacturers p{
+  text-align: center;
+}
+
+.manu{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.manu-logos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.manu-logos img{
+  height: 100px;
+}
