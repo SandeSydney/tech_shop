@@ -25,7 +25,7 @@ body {
 .nav-items {
   flex: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 18px;
 }
 
@@ -33,7 +33,7 @@ body {
   padding: 2% 5%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
 }
 
 .intro-text {
@@ -61,6 +61,34 @@ body {
   color: #FF4E00;
 }
 
+.intro-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .sections {
   max-width: 519px;
+}
+
+.sect-img {
+  max-height: 200px;
+  width: 300px;
+  mix-blend-mode: multiply;
+  border: 2px solid #FF4E00;
+  border-radius: 10px;
+}
+
+.section-lead {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.section-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
