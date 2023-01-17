@@ -8,6 +8,11 @@ body {
   background: #F5F5F5;
 }
 
+button{
+  border-style: solid 1px;
+  border-radius: 10px;
+}
+
 .navbar {
   min-height: 100px;
   display: flex;
@@ -61,10 +66,17 @@ body {
   color: #FF4E00;
 }
 
+.main-intro-section {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .intro-sections {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .sections {
@@ -91,4 +103,20 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.view-other {
+  text-align: center;
+}
+
+.view {
+  width: 304px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view img{
+  max-width: 50px;
 }
