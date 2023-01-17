@@ -3,6 +3,7 @@ import network from '../resources/sever-3100049_960_720.jpg'
 import repairs from '../resources/hardware-3509893_1920.jpg'
 import accessories from '../resources/computer-414059_1920.jpg'
 import printing from '../resources/office-5169618_1920.jpg'
+import more from '../resources/forward-arrow-78.png'
 
 function Homepage() {
     return (
@@ -15,28 +16,38 @@ function Homepage() {
             <div>
                 <p className='section-header'>Our Expertise</p>
             </div>
-            <div className="intro-sections">
-                <div className="sections">
-                    <img className='sect-img' src={network} alt="Networking section" />
-                    <p className='section-lead'>Networking Equipments</p>
-                    <p className='section-text'>We have a wide range of networking equipment from trusted manufacturers around the globe that you can choose from.</p>
+            <div className="main-intro-section">
+                <div className="intro-sections">
+                    <div className="sections">
+                        <img className='sect-img' src={network} alt="Networking section" />
+                        <p className='section-lead'>Networking Equipments</p>
+                        <p className='section-text'>We have a wide range of networking equipment from trusted manufacturers around the globe that you can choose from.</p>
+                    </div>
+                    <div className="sections">
+                        <img className='sect-img' src={repairs} alt="Repairs section" />
+                        <p className='section-lead'>Computer Repairs</p>
+                        <p className='section-text'>Qualified and proved engineers are provisioned to troubleshoot and sort your computer hardware and issues.</p>
+                    </div>
                 </div>
-                <div className="sections">
-                    <img className='sect-img' src={repairs} alt="Repairs section" />
-                    <p className='section-lead'>Computer Repairs</p>
-                    <p className='section-text'>Qualified and proved engineers are provisioned to troubleshoot and sort your computer hardware and issues.</p>
+                <div className="intro-sections">
+                    <div className="sections">
+                        <img className='sect-img' src={accessories} alt="Accessories section" />
+                        <p className='section-lead'>Computer Accessories</p>
+                        <p className='section-text'>Get to choose and experience a myriad of computer accessories ranging from monitors, keyboards, mice, headphones, e.t.c </p>
+                    </div>
+                    <div className="sections">
+                        <img className='sect-img' src={printing} alt="Printing section" />
+                        <p className='section-lead'>Printing Services</p>
+                        <p className='section-text'>Do you have items that you would love to print both in colour and black & white? Worry no more, we offer exemplary services and quality printouts.  </p>
+                    </div>
                 </div>
-            </div>
-            <div className="intro-sections">
-                <div className="sections">
-                    <img className='sect-img' src={accessories} alt="Accessories section" />
-                    <p className='section-lead'>Computer Accessories</p>
-                    <p className='section-text'>Get to choose and experience a myriad of computer accessories ranging from monitors, keyboards, mice, headphones, e.t.c </p>
-                </div>
-                <div className="sections">
-                    <img className='sect-img' src={printing} alt="Printing section" />
-                    <p className='section-lead'>Printing Services</p>
-                    <p className='section-text'>Do you have items that you would love to print both in colour and black & white? Worry no more, we offer exemplary services and quality printouts.  </p>
+                <div className='view-other'>
+                    <button>
+                        <div className='view'>
+                            <p>View Other Services</p>
+                            <img src={more} alt="Arrow" />
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
