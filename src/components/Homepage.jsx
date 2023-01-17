@@ -15,6 +15,7 @@ import samsung from '../resources/samsung.png'
 import ibm from '../resources/ibm.png'
 import microsoft from '../resources/microsoft.png'
 import google from '../resources/google.png'
+import Footer from './Footer'
 
 function Homepage() {
     return (
@@ -26,7 +27,7 @@ function Homepage() {
                         and personal goals.</p>
                 </div>
                 <div>
-                    <p className='section-header'>Our Expertise</p>
+                    <h4 className='section-header'>Our Expertise</h4>
                 </div>
                 <div className="main-intro-section">
                     <div className="intro-sections">
@@ -65,7 +66,7 @@ function Homepage() {
             </div>
             <div className='manufacturers'>
                 <div className="main-container">
-                    <p className='section-header'>Manufacturers & Customers</p>
+                    <h4 className='section-header'>Manufacturers & Customers</h4>
                     <p>Our doors are open to Individuals, Companies both private and public, and government parastatals.</p>
                     <p>Get high quality and affordable goods and services with a guarantee of exquisite performance and durability., from the following world-class manufacturers.</p>
                     <div className='manu'>
@@ -79,7 +80,7 @@ function Homepage() {
                         <div className='manu-logos'>
                             <img src={cisco} alt="" />
                             <img src={beats} alt="" />
-                            <img style={{ }} src={samsung} alt="" />
+                            <img style={{}} src={samsung} alt="" />
                             <img src={ibm} alt="" />
                         </div>
                         <div className='manu-logos'>
@@ -88,6 +89,9 @@ function Homepage() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="main-container">
+                <Footer />
             </div>
         </>
     )
