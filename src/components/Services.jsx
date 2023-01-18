@@ -12,6 +12,7 @@ import password from '../resources/password-removal.png'
 import networks from '../resources/computer-networks.png'
 import accessories from '../resources/hard-disk-78.png'
 import Accordion from "react-bootstrap/Accordion"
+import Footer from './Footer'
 
 function Services() {
   return (
@@ -205,6 +206,9 @@ function Services() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="main-container black">
+        <Footer theme={"dark"}/>
       </div>
     </>
   )
