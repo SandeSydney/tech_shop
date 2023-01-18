@@ -4,9 +4,9 @@ import facebook from '../resources/facebook.png'
 import twitter from '../resources/twitter.png'
 import insta from '../resources/insta.png'
 
-function Footer() {
+function Footer({ theme }) {
   return (
-    <div className='foot'>
+    <div className={theme}>
         <div className='contact-image'>
             <img src={contact_img} alt="" />
         </div>
