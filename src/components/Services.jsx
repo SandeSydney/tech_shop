@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceOffer from './ServiceOffer'
-import diagnosis from '../resources/computer_diagnostic.png'
+import diagnosis from '../resources/computer-diagnostic.png'
 import screen from '../resources/computer-screen.png'
 import cctv from '../resources/camera.png'
 import printer from '../resources/printer.png'
@@ -32,17 +32,18 @@ function Services() {
           <div className='service-deals'>
             <p>Repairs & Deals</p>
           </div>
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
-          <ServiceOffer />
+          <ServiceOffer image={diagnosis} />
+          <ServiceOffer image={screen} />
+          <ServiceOffer image={cctv} />
+          <ServiceOffer image={printer} />
+          <ServiceOffer image={repair} />
+          <ServiceOffer image={os} />
+          <ServiceOffer image={virus} />
+          <ServiceOffer image={data} />
+          <ServiceOffer image={software} />
+          <ServiceOffer image={password} />
+          <ServiceOffer image={networks} />
+          <ServiceOffer image={accessories} />
         </div>
       </div>
     </>
