@@ -91,7 +91,7 @@ function Homepage() {
                 </div>
             </div>
             <div className="main-container">
-                <Footer />
+                <Footer theme={"light"}/>
             </div>
         </>
     )
