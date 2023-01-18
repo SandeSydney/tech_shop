@@ -231,6 +231,7 @@ button {
 .all-service-offers {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 10px;
 }
 
 .service-offer-left{
@@ -239,11 +240,22 @@ button {
 .service-offer-right{
   flex: 1;
 }
+.service-offer-right .accordion-button{
+  border-radius: 25px 0px 0px 25px !important;
+}
+.service-offer-left .accordion-button{
+  border-radius: 0px 25px 25px 0px !important;
+}
 
 .accordion-button {
   background-color: #002142 !important;
   color: #FFFFFF !important;
   gap: 20px !important;
+}
+
+.accordion-item{
+  background-color: transparent !important;
+  margin: 10px 0px;
 }
 
 .accordion-button:focus {
