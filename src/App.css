@@ -61,7 +61,7 @@ button {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #FF4E00;
@@ -164,7 +164,7 @@ button {
   color: #FFFFFF;
 }
 
-.black{
+.black {
   background-color: #000000;
 }
 
@@ -185,7 +185,8 @@ button {
   gap: 15px;
 }
 
-.light .socials img, .dark .socials img {
+.light .socials img,
+.dark .socials img {
   width: 60px;
   height: 60px;
 }
@@ -284,7 +285,7 @@ button {
   color: #212529;
 }
 
-.err{
+.err {
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -292,6 +293,60 @@ button {
   align-items: center;
 }
 
-.err img{
+.err img {
   max-width: 30%;
+}
+
+.about-intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.about-intro img {
+  max-width: 100%;
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-Height: "400px";
+  line-height: 25px;
+}
+
+.target {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.target-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.center img,
+.target-item img {
+  max-width: 292px;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.center .section-header{
+  text-align: left;
 }
