@@ -228,20 +228,9 @@ button {
   color: #FFFFFF;
 }
 
-.all-service-offers{
-  display: grid;
-  grid-template-columns: auto;
-  grid-area: 
-    "one" "two"
-    "three" "four" 
-    "five" "six"
-    "seven" "eight"
-    "nine" "ten"
-    "eleven" "twelve"
-  ;
-}
+.all-service-offers {}
 
-.service-offer-left{
+.service-offer-left {
   background-color: #002142;
   border-radius: 0px 25px 25px 0px;
   color: #FFFFFF;
@@ -249,11 +238,26 @@ button {
   justify-content: center;
   align-items: center;
 }
-.service-offer-right{
+
+.service-offer-right {
   background-color: #002142;
   border-radius: 25px 0px 0px 25px;
   color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.accordion-button {
+  background-color: #002142 !important;
+  color: #FFFFFF !important;
+  gap: 20px !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
 }
