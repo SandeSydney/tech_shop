@@ -1,5 +1,4 @@
 import React from 'react'
-import ServiceOffer from './ServiceOffer'
 import diagnosis from '../resources/computer-diagnostic.png'
 import screen from '../resources/computer-screen.png'
 import cctv from '../resources/camera.png'
@@ -12,6 +11,7 @@ import software from '../resources/software-installer.png'
 import password from '../resources/password-removal.png'
 import networks from '../resources/computer-networks.png'
 import accessories from '../resources/hard-disk-78.png'
+import Accordion from "react-bootstrap/Accordion"
 
 function Services() {
   return (
@@ -30,20 +30,90 @@ function Services() {
       <div className="deals">
         <div className="main-container">
           <div className='service-deals'>
-            <p>Repairs & Deals</p>
+            <p>Repairs & Service Deals</p>
           </div>
-          <ServiceOffer image={diagnosis} />
-          <ServiceOffer image={screen} />
-          <ServiceOffer image={cctv} />
-          <ServiceOffer image={printer} />
-          <ServiceOffer image={repair} />
-          <ServiceOffer image={os} />
-          <ServiceOffer image={virus} />
-          <ServiceOffer image={data} />
-          <ServiceOffer image={software} />
-          <ServiceOffer image={password} />
-          <ServiceOffer image={networks} />
-          <ServiceOffer image={accessories} />
+          <div className="all-service-offers">
+            <Accordion>
+              <Accordion.Item eventKey='1'>
+                <Accordion.Header >
+                  Laptop Screen Replacement
+                  <img src={screen} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey='3'>
+                <Accordion.Header >
+                  Printing Services
+                  <img src={printer} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey='5'>
+                <Accordion.Header >
+                  Operating System Install
+                  <img src={os} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey='7'>
+                <Accordion.Header >
+                  Data Transfer & Data Recovery
+                  <img src={data} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey='9'>
+                <Accordion.Header >
+                  Password Removal and Retrieval
+                  <img src={password} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey='11'>
+                <Accordion.Header >
+                  Computer Accessories
+                  <img src={accessories} alt="" />
+                </Accordion.Header>
+                <Accordion.Body>
+                  <p>This section entails:</p>
+                  <ul>
+                    <li>Checking Drivers</li>
+                    <li>Monitoring the CPU</li>
+                  </ul>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </div>
         </div>
       </div>
     </>
