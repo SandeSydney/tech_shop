@@ -13,10 +13,10 @@ button {
   border-radius: 10px;
 }
 
-.navbar {
+.navbar-main {
   min-height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 0% 10%;
   background: #002142;
@@ -251,6 +251,11 @@ button {
   background-color: #002142 !important;
   color: #FFFFFF !important;
   gap: 20px !important;
+}
+
+.accordion-button img{
+  max-width: 70px;
+  max-height: 70px;
 }
 
 .accordion-item{
