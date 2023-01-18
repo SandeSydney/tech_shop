@@ -228,24 +228,16 @@ button {
   color: #FFFFFF;
 }
 
-.all-service-offers {}
-
-.service-offer-left {
-  background-color: #002142;
-  border-radius: 0px 25px 25px 0px;
-  color: #FFFFFF;
+.all-service-offers {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
-.service-offer-right {
-  background-color: #002142;
-  border-radius: 25px 0px 0px 25px;
-  color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.service-offer-left{
+  flex: 1;
+}
+.service-offer-right{
+  flex: 1;
 }
 
 .accordion-button {
