@@ -33,86 +33,176 @@ function Services() {
             <p>Repairs & Service Deals</p>
           </div>
           <div className="all-service-offers">
-            <Accordion>
-              <Accordion.Item eventKey='1'>
-                <Accordion.Header >
-                  Laptop Screen Replacement
-                  <img src={screen} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='3'>
-                <Accordion.Header >
-                  Printing Services
-                  <img src={printer} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='5'>
-                <Accordion.Header >
-                  Operating System Install
-                  <img src={os} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='7'>
-                <Accordion.Header >
-                  Data Transfer & Data Recovery
-                  <img src={data} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='9'>
-                <Accordion.Header >
-                  Password Removal and Retrieval
-                  <img src={password} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey='11'>
-                <Accordion.Header >
-                  Computer Accessories
-                  <img src={accessories} alt="" />
-                </Accordion.Header>
-                <Accordion.Body>
-                  <p>This section entails:</p>
-                  <ul>
-                    <li>Checking Drivers</li>
-                    <li>Monitoring the CPU</li>
-                  </ul>
-                </Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
+            <div className='service-offer-left'>
+              <Accordion>
+                <Accordion.Item eventKey='0'>
+                  <Accordion.Header >
+                    <img src={diagnosis} alt="" />
+                    System Diagnosis
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='2'>
+                  <Accordion.Header >
+                    <img src={cctv} alt="" />
+                    CCTVs & Security Systems
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='4'>
+                  <Accordion.Header >
+                    <img src={repair} alt="" />
+                    Computer Tune Up
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='6'>
+                  <Accordion.Header >
+                    <img src={virus} alt="" />
+                    Virus & Malware Removal
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='8'>
+                  <Accordion.Header >
+                    <img src={software} alt="" />
+                    Software Installation
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='10'>
+                  <Accordion.Header >
+                    <img src={networks} alt="" />
+                    Networking Equipments & Cabling
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </div>
+            <div className='service-offer-right'>
+              <Accordion>
+
+                <Accordion.Item eventKey='1'>
+                  <Accordion.Header >
+                    Laptop Screen Replacement
+                    <img src={screen} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey='3'>
+                  <Accordion.Header >
+                    Printing Services
+                    <img src={printer} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey='5'>
+                  <Accordion.Header >
+                    Operating System Install
+                    <img src={os} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey='7'>
+                  <Accordion.Header >
+                    Data Transfer & Data Recovery
+                    <img src={data} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey='9'>
+                  <Accordion.Header >
+                    Password Removal and Retrieval
+                    <img src={password} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+
+                <Accordion.Item eventKey='11'>
+                  <Accordion.Header >
+                    Computer Accessories
+                    <img src={accessories} alt="" />
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    <p>This section entails:</p>
+                    <ul>
+                      <li>Checking Drivers</li>
+                      <li>Monitoring the CPU</li>
+                    </ul>
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+            </div>
           </div>
         </div>
       </div>
