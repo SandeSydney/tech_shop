@@ -1,6 +1,5 @@
 import React from 'react'
 import { Accordion } from 'react-bootstrap'
-import diagnosis from '../resources/computer-diagnostic.png'
 
 function ServiceOffer() {
   return (
