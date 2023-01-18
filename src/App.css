@@ -151,19 +151,29 @@ button {
   height: 100px;
 }
 
-.foot {
+.light,
+.dark {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 10% 0%;
 }
 
-.contact-image img {
-  width: 100%;
-  mix-blend-mode: multiply;
+.dark {
+  background: #000000;
+  color: #FFFFFF;
 }
 
-.foot .contact-image {
+.black{
+  background-color: #000000;
+}
+
+.contact-image img {
+  width: 100%;
+}
+
+.light .contact-image,
+.dark .contact-image {
   flex: 1;
 }
 
@@ -175,7 +185,7 @@ button {
   gap: 15px;
 }
 
-.foot .socials img {
+.light .socials img, .dark .socials img {
   width: 60px;
   height: 60px;
 }
@@ -234,16 +244,19 @@ button {
   column-gap: 10px;
 }
 
-.service-offer-left{
+.service-offer-left {
   flex: 1;
 }
-.service-offer-right{
+
+.service-offer-right {
   flex: 1;
 }
-.service-offer-right .accordion-button{
+
+.service-offer-right .accordion-button {
   border-radius: 25px 0px 0px 25px !important;
 }
-.service-offer-left .accordion-button{
+
+.service-offer-left .accordion-button {
   border-radius: 0px 25px 25px 0px !important;
 }
 
@@ -253,12 +266,12 @@ button {
   gap: 20px !important;
 }
 
-.accordion-button img{
+.accordion-button img {
   max-width: 70px;
   max-height: 70px;
 }
 
-.accordion-item{
+.accordion-item {
   background-color: transparent !important;
   margin: 10px 0px;
 }
