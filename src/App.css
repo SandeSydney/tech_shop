@@ -283,3 +283,15 @@ button {
 .accordion-button:not(.collapsed) {
   color: #212529;
 }
+
+.err{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err img{
+  max-width: 30%;
+}
