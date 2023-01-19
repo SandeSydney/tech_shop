@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 function Navigation() {
   return (
     <Navbar className='navbar-main' expand="lg">
-      {/* <div className='navbar-main'> */}
       <Navbar.Brand className='logo'>
         <Link className='logo-link' to={"/"}>
           <img src="" alt="" />
@@ -22,14 +21,6 @@ function Navigation() {
         </Nav>
 
       </Navbar.Collapse>
-
-      {/* <div className='nav-items'>
-        <p><Link className='nav-link' to={"/"}>Home</Link></p>
-        <p><Link className='nav-link' to={"/services"}>Our Services</Link></p>
-        <p><Link className='nav-link' to={"/about-us"}>About Us</Link></p>
-        <p><Link className='nav-link' to={"/contact-us"}>Contact Us</Link></p>
-      </div> */}
-      {/* </div> */}
     </Navbar>
 
   )
