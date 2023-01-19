@@ -19,13 +19,24 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0% 10%;
+  padding: 0% 10% !important;
   background: #002142;
-  color: white;
+  color: #FFFFFF;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #FFFFFF !important;
 }
 
 .logo {
   flex: 1;
+}
+
+.logo-link,
+.logo-link:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav-items {
@@ -33,6 +44,10 @@ button {
   display: flex;
   justify-content: space-around;
   font-size: 18px;
+}
+
+.navbar-toggler-icon {
+  background-image: url('./resources/menu-button.png') !important;
 }
 
 .main-container {
