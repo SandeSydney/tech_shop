@@ -4,10 +4,12 @@ import mission from '../resources/mission.png'
 import vision from '../resources/light-bulb.png'
 import core_values from '../resources/core-values.png'
 import Footer from './Footer'
+import Navigation from './Navigation'
 
 function About() {
     return (
         <>
+            <Navigation />
             <div className='main-container'>
                 <div className='about-intro'>
                     <img src={about_main} alt="" />

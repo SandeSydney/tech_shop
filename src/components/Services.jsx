@@ -13,10 +13,12 @@ import networks from '../resources/computer-networks.png'
 import accessories from '../resources/hard-disk-78.png'
 import Accordion from "react-bootstrap/Accordion"
 import Footer from './Footer'
+import Navigation from './Navigation'
 
 function Services() {
   return (
     <>
+      <Navigation />
       <div className='landing'>
         <div className="main-container">
           <div className='service-content'>
@@ -208,7 +210,7 @@ function Services() {
         </div>
       </div>
       <div className="main-container black">
-        <Footer theme={"dark"}/>
+        <Footer theme={"dark"} />
       </div>
     </>
   )
