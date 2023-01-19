@@ -16,10 +16,12 @@ import ibm from '../resources/ibm.png'
 import microsoft from '../resources/microsoft.png'
 import google from '../resources/google.png'
 import Footer from './Footer'
+import Navigation from './Navigation'
 
 function Homepage() {
     return (
         <>
+            <Navigation />
             <div className='main-container'>
                 <div className='intro-text'>
                     <p className='header'>We offer quality and tested  IT services and infrastructure</p>
@@ -91,7 +93,7 @@ function Homepage() {
                 </div>
             </div>
             <div className="main-container">
-                <Footer theme={"light"}/>
+                <Footer theme={"light"} />
             </div>
         </>
     )
