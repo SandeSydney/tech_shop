@@ -29,6 +29,12 @@ button {
   color: #FFFFFF !important;
 }
 
+.nav-link:hover {
+  color: #FF4E00 !important;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 .logo {
   flex: 1;
 }
