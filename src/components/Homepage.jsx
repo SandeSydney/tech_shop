@@ -17,11 +17,14 @@ import microsoft from '../resources/microsoft.png'
 import google from '../resources/google.png'
 import Footer from './Footer'
 import Navigation from './Navigation'
+import { useNavigate } from 'react-router-dom'
 
 function Homepage() {
+
+    const navigate = useNavigate()
     return (
         <>
-            <Navigation />
+            <Navigation /> {/* Navigation, active={home}? */}
             <div className='main-container'>
                 <div className='intro-text'>
                     <p className='header'>We offer quality and tested  IT services and infrastructure</p>
@@ -57,7 +60,9 @@ function Homepage() {
                         </div>
                     </div>
                     <div className='view-other'>
-                        <button>
+                        <button style={{
+                            border:'1px solid lightgray', borderRadius:'10px', boxShadow:'2px 2px 8px rgb(79, 79, 79, 0.5)'
+                        }} onClick={() => { navigate("/services") }}>
                             <div className='view'>
                                 <p>View Other Services</p>
                                 <img src={more} alt="Arrow" />

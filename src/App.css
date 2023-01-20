@@ -11,7 +11,7 @@ body {
 button {
   border-style: 1px solid;
   border-radius: 10px;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .navbar-main {
@@ -19,13 +19,30 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0% 10%;
+  padding: 0% 10% !important;
   background: #002142;
-  color: white;
+  color: #FFFFFF;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+  color: #FF4E00 !important;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 .logo {
   flex: 1;
+}
+
+.logo-link,
+.logo-link:hover {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav-items {
@@ -35,11 +52,15 @@ button {
   font-size: 18px;
 }
 
+.navbar-toggler-icon {
+  background-image: url('./resources/menu-button.png') !important;
+}
+
 .main-container {
   padding: 2% 10%;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  justify-content: space-evenly;
   color: #000000;
 }
 
@@ -72,24 +93,31 @@ button {
   min-width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 40px;
+  margin: 20px 0px;
 }
 
 .intro-sections {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .sections {
-  max-width: 519px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.sect-img {
-  max-height: 200px;
-  width: 300px;
+.sections .sect-img {
+  height: 40vh;
+  width: 89%;
+  min-width: 300px;
   mix-blend-mode: multiply;
-  border: 2px solid #FF4E00;
+  border: 2px solid #ff4d008f;
   border-radius: 10px;
 }
 
@@ -108,7 +136,7 @@ button {
 }
 
 .view-other {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .view {
@@ -120,7 +148,7 @@ button {
 }
 
 .view img {
-  max-width: 50px;
+  max-width: 40px;
 }
 
 .manufacturers {
@@ -135,15 +163,15 @@ button {
 }
 
 .manu {
-  height: 430px;
   margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 20px;
 }
 
 .manu-logos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
