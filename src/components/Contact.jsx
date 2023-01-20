@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import contact_us from '../resources/contact-us.png'
 import Navigation from './Navigation'
 import emailjs from '@emailjs/browser'
-import { useNavigate } from 'react-router-dom'
 
 function Contact() {
     const form = useRef()
@@ -11,26 +10,26 @@ function Contact() {
     const email = useRef()
     const phone = useRef()
     const message = useRef()
-
-    const navigate = useNavigate()
+    const subject = useRef()
 
     const sendEmail = (e) => {
         e.preventDefault()
 
-        emailjs.sendForm('service_srsmx1p', 'contact_form', form.current, 'GldVl5y-K2eCb0nkD')
-            .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
-            }, (err) => {
-                console.log('FAILED...', err);
-            });
+        if (last.current.value.trim() !== "" && first.current.value.trim() !== "" && email.current.value.trim() !== "" && phone.current.value.trim() !== "" && message.current.value.trim() !== "" && subject.current.value.trim() !== "") {
+            emailjs.sendForm('contact_service', 'template_ziohy4y', form.current, '2ydEaxoI6faGV0do2')
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, (err) => {
+                    console.log('FAILED...', err);
+                });
+        }
 
         last.current.value = ''
         first.current.value = ''
         email.current.value = ''
         phone.current.value = ''
-        message.current.value = '' 
-        
-        navigate('/')
+        message.current.value = ''
+        subject.current.value = ''
     }
 
     return (
@@ -61,6 +60,10 @@ function Contact() {
                             <div className="form-element">
                                 <label htmlFor="user_phone">Phone number</label>
                                 <input ref={phone} type="tel" name='user_phone' />
+                            </div>
+                            <div className="form-element">
+                                <label htmlFor="subject">Subject</label>
+                                <input ref={subject} type="text" name='subject' />
                             </div>
                             <div className="form-element">
                                 <label htmlFor="message">Message</label>
