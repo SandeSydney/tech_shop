@@ -113,8 +113,8 @@ button {
 }
 
 .sections .sect-img {
-  height: 40vh;
-  width: 89%;
+  max-height: 40vh;
+  width: 80%;
   min-width: 300px;
   mix-blend-mode: multiply;
   border: 2px solid #ff4d008f;
@@ -133,10 +133,6 @@ button {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-}
-
-.view-other {
-  /* text-align: center; */
 }
 
 .view {
@@ -183,6 +179,7 @@ button {
 .light,
 .dark {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   padding: 10% 0%;
@@ -208,14 +205,17 @@ button {
 .light .contact-image,
 .dark .contact-image {
   flex: 1;
+  min-width: 200px;
 }
 
 .contact-details {
   flex: 1;
+  min-width: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin: 10px;
 }
 
 .light .socials img,
