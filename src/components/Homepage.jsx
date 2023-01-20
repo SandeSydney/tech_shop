@@ -24,7 +24,7 @@ function Homepage() {
     const navigate = useNavigate()
     return (
         <>
-            <Navigation />
+            <Navigation /> {/* Navigation, active={home}? */}
             <div className='main-container'>
                 <div className='intro-text'>
                     <p className='header'>We offer quality and tested  IT services and infrastructure</p>
