@@ -13,13 +13,13 @@ function Footer({ theme }) {
         <div className='contact-details'>
             <p className='contacts-lead'>Contacts</p>
             <p className='contacts-text'>Call Us: 0728145548</p>
-            <a className='contacts-text' href="mailto:gregayoo@gmail.com">gregayoo@gmail.com</a>
+            <a className='contacts-text' href="mailto:aoracomltd@gmail.com">aoracomltd@gmail.com</a>
             <div className='socials'>
                 <img src={twitter} alt="" />
                 <img src={facebook} alt="" />
                 <img src={insta} alt="" />
             </div>
-            <p className="contacts-text">TechShopInc</p>
+            <p className="contacts-text">Aoracom Systems Limited</p>
             <p className="contacts-text">&copy;Copyright {new Date().getFullYear()}</p>
         </div>
     </div>
