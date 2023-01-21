@@ -1,14 +1,15 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import logo_img from '../resources/Logo.png'
 
 function Navigation() {
   return (
     <Navbar className='navbar-main' expand="lg">
       <Navbar.Brand className='logo'>
         <Link className='logo-link' to={"/"}>
-          <img src="" alt="" />
-          Aoracom Systems Limited
+          <img style={{ maxWidth: "60px"}} src={logo_img} alt="" />
+          Aoracom Systems Ltd
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="aoracom-navbar-nav" />
