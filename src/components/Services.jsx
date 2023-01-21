@@ -44,11 +44,7 @@ function Services() {
                     System Diagnosis
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>We have at our disposal the best resources to help determine and isolate issues with your device.</p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
@@ -57,11 +53,7 @@ function Services() {
                     CCTVs & Security Systems
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>The best quality surveillance cameras and DVRs to help monitor your business and help secure your premises.</p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='4'>
@@ -70,11 +62,7 @@ function Services() {
                     Computer Tune Up
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>Your computing device tends to be slow, unresponsive and lags in performance. We offer services to bring it back to new new conditions and speed it up.</p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='6'>
@@ -83,11 +71,7 @@ function Services() {
                     Virus & Malware Removal
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>Virus and Malware have adverse conditions in your devices and can even steal or destroy your most important data. We have the resources to find the viruses and go a step further to eliminate them from your devices. </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='8'>
@@ -96,11 +80,7 @@ function Services() {
                     Software Installation
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>We have a myriad of licenced and open-source software that you may need for both personal and organizational use. We also supply and install them in bulk. </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='10'>
@@ -109,11 +89,8 @@ function Services() {
                     Networking Equipments & Cabling
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>Getting to be connected to your colleagues, sharing and even making deals with other stakeholders improves your business. We are skilled in installing and configuring wired and wireless environments to help you achieve this feat.</p>
+                    <p>Our range of products include routers; switches; access points( wired and wireless); Wi-Fi extenders; etcetra.</p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -127,11 +104,8 @@ function Services() {
                     <img src={screen} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>Unresponsive, damaged and broken laptop screens are a nightmare. Get to us to help you remedy the condition and get you back to your normal operations within a short span of time.</p>
+                    <p>We have specialty in handling any type and model of your PC and Laptop.</p>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -141,11 +115,7 @@ function Services() {
                     <img src={printer} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>We offer cutting-edge services and produce the best quality printouts. Do you need them fast and in bulk? Aoracom delivers. </p>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -155,11 +125,8 @@ function Services() {
                     <img src={os} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>From Windows, Chrome OS, Mac OS, and Linux together with its distributions, Aoracom is the best place to get them installed and configured. </p>
+                    <p>We do the installations meticulously and ensure all configurations are up-to standard.</p>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -169,11 +136,8 @@ function Services() {
                     <img src={data} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>We have resources both human and technological that can assist you migrate data from and to different platforms.</p>
+                    <p>If your data has been lost or have a damaged storage devices, we are skilled in getting to recover the data. Give us a call today! </p>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -183,11 +147,8 @@ function Services() {
                     <img src={password} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>Have you been locked out of your own device and really need access to stuff in there? Worry not because we got you covered.</p>
+                    <p>We have advanced skills in getting through and recovering your passwords and also removing them, depending on what you need.</p>
                   </Accordion.Body>
                 </Accordion.Item>
 
@@ -197,11 +158,8 @@ function Services() {
                     <img src={accessories} alt="" />
                   </Accordion.Header>
                   <Accordion.Body>
-                    <p>This section entails:</p>
-                    <ul>
-                      <li>Checking Drivers</li>
-                      <li>Monitoring the CPU</li>
-                    </ul>
+                    <p>From wired and wireless mice & keyboards, wired and wireless headsets, graphic cards, memory storages, NICs, to computer monitors and CPUs, We have you and your needs covered.</p>
+                    <p>The best and high quality accessories we offer at a pocket and customer-friendly price.</p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
