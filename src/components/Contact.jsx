@@ -82,7 +82,7 @@ function Contact() {
                     <div className="contact-foot">
                         <div className="reach-details">
                             <p className="details-head">Locate Us</p>
-                            <p className="details-body">Tel: 0728145548</p>
+                            <p className="details-body">Tel: 0728145548 or 0738329432</p>
                             <p className="details-body">Email: aoracomltd@gmail.com</p>
                             <p className="details-body">Mlolongo, Machakos County - Kenya</p>
                         </div>
