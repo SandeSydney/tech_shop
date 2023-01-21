@@ -7,21 +7,21 @@ import insta from '../resources/insta.png'
 function Footer({ theme }) {
   return (
     <div className={theme}>
-        <div className='contact-image'>
-            <img src={contact_img} alt="" />
+      <div className='contact-image'>
+        <img src={contact_img} alt="" />
+      </div>
+      <div className='contact-details'>
+        <p className='contacts-lead'>Contacts</p>
+        <p className='contacts-text'>Call us on: <u>0728145548</u> <i>or</i> <u>0738329432</u></p>
+        <a className='contacts-text' href="mailto:aoracomltd@gmail.com">aoracomltd@gmail.com</a>
+        <div className='socials'>
+          <img src={twitter} alt="" />
+          <img src={facebook} alt="" />
+          <img src={insta} alt="" />
         </div>
-        <div className='contact-details'>
-            <p className='contacts-lead'>Contacts</p>
-            <p className='contacts-text'>Call Us: 0728145548</p>
-            <a className='contacts-text' href="mailto:aoracomltd@gmail.com">aoracomltd@gmail.com</a>
-            <div className='socials'>
-                <img src={twitter} alt="" />
-                <img src={facebook} alt="" />
-                <img src={insta} alt="" />
-            </div>
-            <p className="contacts-text">Aoracom Systems Limited</p>
-            <p className="contacts-text">&copy;Copyright {new Date().getFullYear()}</p>
-        </div>
+        <p className="contacts-text">Aoracom Systems Limited</p>
+        <p className="contacts-text">&copy;Copyright {new Date().getFullYear()}</p>
+      </div>
     </div>
   )
 }
