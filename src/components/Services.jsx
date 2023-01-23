@@ -50,10 +50,11 @@ function Services() {
                 <Accordion.Item eventKey='2'>
                   <Accordion.Header >
                     <img src={cctv} alt="" />
-                    CCTVs & Security Systems
+                    CCTVs (Installation + Servicing) <br/> & Security Systems
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>The best quality surveillance cameras and DVRs to help monitor your business and help secure your premises.</p>
+                    <p>We install these CCTVs and systems; Their servicing is also done meticulously after agreed durations.</p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='4'>
