@@ -424,6 +424,10 @@ button {
   line-height: 25px;
 }
 
+.target-section{
+  background: #D9D9D9;
+}
+
 .target {
   display: flex;
   flex-wrap: wrap;
