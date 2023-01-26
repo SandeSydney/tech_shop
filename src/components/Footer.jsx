@@ -13,7 +13,7 @@ function Footer({ theme }) {
       <div className='contact-details'>
         <p className='contacts-lead'>Contacts</p>
         <p className='contacts-text'>Call us on: <u>0728145548</u> <i>or</i> <u>0738329432</u></p>
-        <a className='contacts-text' href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzDSDBTTJvrPwlZpCGJHgjcDQwvrNJXzQPDPDCNtQzdhwRNzwBlFCdMmZHPtRRKSgqlkHKrtfSlXBdB" target={"_blank"}>aoracomltd@gmail.com</a>
+        <a className='contacts-text' href="https://mail.google.com/mail/u/0/#inbox?compose=CrpPbDzDSDBTTJvrPwlZpCGJHgjcDQwvrNJXzQPDPDCNtQzdhwRNzwBlFCdMmZHPtRRKSgqlkHKrtfSlXBdB" target={"_blank"} rel={"noreferrer"}>aoracomltd@gmail.com</a>
         <div className='socials'>
           <img src={twitter} alt="" />
           <img src={facebook} alt="" />
