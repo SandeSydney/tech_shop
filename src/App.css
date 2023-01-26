@@ -64,6 +64,22 @@ button {
   color: #000000;
 }
 
+.content-section {
+  min-height: 100vh;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .intro-text {
   max-width: 620px;
 }
@@ -125,8 +141,10 @@ button {
   animation-duration: 3s;
 }
 
-@keyframes image-animation{
-  0%{width: 30%;}
+@keyframes image-animation {
+  0% {
+    width: 30%;
+  }
 }
 
 .section-lead {
@@ -200,6 +218,7 @@ button {
   padding: 20px 0px;
   background: #002142;
   color: #FFFFFF;
+  display: flex;
 }
 
 .manufacturers p {
@@ -207,11 +226,17 @@ button {
   color: #FFFFFF;
 }
 
+.manu-text {
+  flex: 1;
+}
+
 .manu {
+  flex: 3;
   margin: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
+  /* gap: 20px; */
 }
 
 .manu-logos {

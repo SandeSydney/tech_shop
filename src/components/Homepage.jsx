@@ -25,7 +25,7 @@ function Homepage() {
     return (
         <>
             <Navigation /> {/* Navigation, active={home}? */}
-            <div className='main-container'>
+            <div className='main-container content-section'>
                 <div className='intro-text'>
                     <p className='header'>We offer quality and tested  IT services and infrastructure</p>
                     <p className='text'>As we know and understand the intricacies of the services you need to achieve your business
@@ -47,7 +47,7 @@ function Homepage() {
                             <p className='section-text'>Qualified and proved engineers are provisioned to troubleshoot and sort your computer hardware and issues.</p>
                         </div>
                     </div>
-                    <div className="intro-sections">
+                    <div className="intro-sections reveal">
                         <div className="sections">
                             <img className='sect-img' src={accessories} alt="Accessories section" />
                             <p className='section-lead'>Computer Accessories</p>
@@ -59,7 +59,7 @@ function Homepage() {
                             <p className='section-text'>Do you have items that you would love to print both in colour and black & white? Worry no more, we offer exemplary services and quality printouts.  </p>
                         </div>
                     </div>
-                    <div className='view-other'>
+                    <div className='view-other reveal'>
                         <button className='btn-view' onClick={() => { navigate("/services") }}>
                             <div className='view'>
                                 <p>View Other Services</p>
@@ -69,33 +69,35 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className='manufacturers'>
+            <div className='manufacturers content-section'>
                 <div className="main-container">
-                    <h4 className='section-header'>Manufacturers & Customers</h4>
-                    <p>Our doors are open to Individuals, Companies both private and public, and government parastatals.</p>
-                    <p>Get high quality and affordable goods and services with a guarantee of exquisite performance and durability., from the following world-class manufacturers.</p>
+                    <div className="manu-text">
+                        <h4 className='section-header'>Manufacturers & Customers</h4>
+                        <p>Our doors are open to Individuals, Companies both private and public, and government parastatals.</p>
+                        <p>Get high quality and affordable goods and services with a guarantee of exquisite performance and durability., from the following world-class manufacturers.</p>
+                    </div>
                     <div className='manu'>
-                        <div className='manu-logos'>
+                        <div className='manu-logos reveal'>
                             <img src={hp} alt="" />
                             <img src={dell} alt="" />
                             <img style={{ width: "238px", height: "50px" }} src={lenovo} alt="" />
                             <img src={apple} alt="" />
                             <img src={nvidia} alt="" />
                         </div>
-                        <div className='manu-logos'>
+                        <div className='manu-logos reveal'>
                             <img src={cisco} alt="" />
                             <img src={beats} alt="" />
                             <img style={{}} src={samsung} alt="" />
                             <img src={ibm} alt="" />
                         </div>
-                        <div className='manu-logos'>
+                        <div className='manu-logos reveal'>
                             <img src={microsoft} alt="" />
                             <img src={google} alt="" />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="main-container">
+            <div className="main-container content-section reveal">
                 <Footer theme={"light"} />
             </div>
         </>
