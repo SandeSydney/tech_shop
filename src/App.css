@@ -119,6 +119,14 @@ button {
   mix-blend-mode: multiply;
   border: 2px solid #ff4d008f;
   border-radius: 10px;
+  -webkit-animation-name: image-animation;
+  -webkit-animation-duration: 3s;
+  animation-name: image-animation;
+  animation-duration: 3s;
+}
+
+@keyframes image-animation{
+  0%{width: 30%;}
 }
 
 .section-lead {
@@ -133,6 +141,47 @@ button {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.btn-view {
+  border: 1px solid #002142;
+  border-radius: 10px;
+  box-shadow: '2px 2px 8px rgb(79, 79, 79, 0.5)';
+  -webkit-animation-name: bounce-btn;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 3;
+  animation-name: bounce-btn;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+}
+
+.btn-view:hover {
+  background-color: #002142;
+  color: #FFFFFF;
+  border: 1px solid #FF4E00;
+  border-radius: 10px;
+}
+
+@keyframes bounce-btn {
+  0% {
+    border: 1px solid #FF4E00;
+  }
+
+  25% {
+    border: 1px solid #002142
+  }
+
+  50% {
+    border: 1px solid #FF4E00;
+  }
+
+  75% {
+    border: 1px solid #002142;
+  }
+
+  100% {
+    border: 1px solid #FF4E00;
+  }
 }
 
 .view {
