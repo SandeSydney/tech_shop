@@ -60,9 +60,7 @@ function Homepage() {
                         </div>
                     </div>
                     <div className='view-other'>
-                        <button style={{
-                            border:'1px solid lightgray', borderRadius:'10px', boxShadow:'2px 2px 8px rgb(79, 79, 79, 0.5)'
-                        }} onClick={() => { navigate("/services") }}>
+                        <button className='btn-view' onClick={() => { navigate("/services") }}>
                             <div className='view'>
                                 <p>View Other Services</p>
                                 <img src={more} alt="Arrow" />
