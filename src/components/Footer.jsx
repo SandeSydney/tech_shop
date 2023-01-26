@@ -17,7 +17,7 @@ function Footer({ theme }) {
         <div className='socials'>
           <img src={twitter} alt="" />
           <img src={facebook} alt="" />
-          <a href="http://wa.me/254728145548"><img src={whatsapp} alt="" /></a>
+          <a href="http://wa.me/254728145548" target={"_blank"} rel={"noreferrer"}><img src={whatsapp} alt="" /></a>
         </div>
         <p className="contacts-text">Aoracom Systems Limited</p>
         <p className="contacts-text">&copy;Copyright {new Date().getFullYear()}</p>
