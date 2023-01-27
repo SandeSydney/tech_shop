@@ -19,7 +19,7 @@ function Services() {
   return (
     <>
       <Navigation />
-      <div className='landing'>
+      <div className='landing content-section'>
         <div className="main-container">
           <div className='service-content'>
             <h4 className="section-header">Our Services</h4>
@@ -30,7 +30,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="deals">
+      <div className="deals content-section">
         <div className="main-container">
           <div className='service-deals'>
             <p>Repairs & Service Deals</p>
@@ -38,7 +38,7 @@ function Services() {
           <div className="all-service-offers">
             <div className='service-offer-left'>
               <Accordion>
-                <Accordion.Item eventKey='0'>
+                <Accordion.Item className="reveal" eventKey='0'>
                   <Accordion.Header >
                     <img src={diagnosis} alt="" />
                     System Diagnosis
@@ -47,17 +47,17 @@ function Services() {
                     <p>We have at our disposal the best resources to help determine and isolate issues with your device.</p>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='2'>
+                <Accordion.Item className="reveal" eventKey='2'>
                   <Accordion.Header >
                     <img src={cctv} alt="" />
-                    CCTVs (Installation + Servicing) <br/> & Security Systems
+                    CCTVs (Installation + Servicing) <br /> & Security Systems
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>The best quality surveillance cameras and DVRs to help monitor your business and help secure your premises.</p>
                     <p>We install these CCTVs and systems; Their servicing is also done meticulously after agreed durations.</p>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='4'>
+                <Accordion.Item className="reveal" eventKey='4'>
                   <Accordion.Header >
                     <img src={repair} alt="" />
                     Computer Tune Up
@@ -66,7 +66,7 @@ function Services() {
                     <p>Your computing device tends to be slow, unresponsive and lags in performance. We offer services to bring it back to new new conditions and speed it up.</p>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='6'>
+                <Accordion.Item className="reveal" eventKey='6'>
                   <Accordion.Header >
                     <img src={virus} alt="" />
                     Virus & Malware Removal
@@ -75,7 +75,7 @@ function Services() {
                     <p>Virus and Malware have adverse conditions in your devices and can even steal or destroy your most important data. We have the resources to find the viruses and go a step further to eliminate them from your devices. </p>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='8'>
+                <Accordion.Item className="reveal" eventKey='8'>
                   <Accordion.Header >
                     <img src={software} alt="" />
                     Software Installation
@@ -84,7 +84,7 @@ function Services() {
                     <p>We have a myriad of licenced and open-source software that you may need for both personal and organizational use. We also supply and install them in bulk. </p>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey='10'>
+                <Accordion.Item className="reveal" eventKey='10'>
                   <Accordion.Header >
                     <img src={networks} alt="" />
                     Networking Equipments & Cabling
@@ -99,7 +99,7 @@ function Services() {
             <div className='service-offer-right'>
               <Accordion>
 
-                <Accordion.Item eventKey='1'>
+                <Accordion.Item className="reveal" eventKey='1'>
                   <Accordion.Header >
                     Laptop Screen Replacement
                     <img src={screen} alt="" />
@@ -110,7 +110,7 @@ function Services() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey='3'>
+                <Accordion.Item className="reveal" eventKey='3'>
                   <Accordion.Header >
                     Printing Services
                     <img src={printer} alt="" />
@@ -120,7 +120,7 @@ function Services() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey='5'>
+                <Accordion.Item className="reveal" eventKey='5'>
                   <Accordion.Header >
                     Operating System Install
                     <img src={os} alt="" />
@@ -131,7 +131,7 @@ function Services() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey='7'>
+                <Accordion.Item className="reveal" eventKey='7'>
                   <Accordion.Header >
                     Data Transfer & Data Recovery
                     <img src={data} alt="" />
@@ -142,7 +142,7 @@ function Services() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey='9'>
+                <Accordion.Item className="reveal" eventKey='9'>
                   <Accordion.Header >
                     Password Removal and Retrieval
                     <img src={password} alt="" />
@@ -153,7 +153,7 @@ function Services() {
                   </Accordion.Body>
                 </Accordion.Item>
 
-                <Accordion.Item eventKey='11'>
+                <Accordion.Item className="reveal" eventKey='11'>
                   <Accordion.Header >
                     Computer Accessories
                     <img src={accessories} alt="" />
@@ -168,8 +168,10 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="main-container black">
-        <Footer theme={"dark"} />
+      <div className="black">
+        <div className="main-container content-section reveal">
+          <Footer theme={"dark"} />
+        </div>
       </div>
     </>
   )
